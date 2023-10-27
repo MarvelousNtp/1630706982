@@ -1,0 +1,141 @@
+form li,
+li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+form ul li label,
+label {
+    float: left;
+    clear: left;
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+form ul li input,
+select,
+span,
+input[type="text"],
+input[type="password"],
+textarea {
+    float: left;
+    margin-bottom: 10px;
+}
+
+form textarea {
+    float: left;
+    width: 350px;
+    height: 150px;
+}
+
+[type="submit"] {
+    clear: left;
+    margin: 20px 0 0 230px;
+    font-size: 18px;
+}
+
+p {
+    margin-left: 70px;
+    font-weight: bold;
+}
+
+.swal2-title,
+.swal2-text {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+h1 {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+select,
+textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+span {
+    margin-left: 5px;
+}
+
+label {
+    display: inline-block;
+    width: 200px;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+input[type="text"],
+input[type="password"],
+select,
+textarea {
+    width: calc(100% - 220px);
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    vertical-align: top;
+}
+
+select {
+    width: 190px;
+}
+
+li input[name="zip"] {
+    width: 190px;
+}
